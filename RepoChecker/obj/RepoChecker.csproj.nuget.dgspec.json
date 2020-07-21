@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_work\\tests\\ThreeWill\\Temp1\\RepoChecker\\RepoChecker\\RepoChecker.csproj": {}
+    "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\RepoChecker\\RepoChecker.csproj": {}
   },
   "projects": {
-    "C:\\_work\\tests\\ThreeWill\\Temp1\\RepoChecker\\RepoChecker\\RepoChecker.csproj": {
+    "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\RepoChecker\\RepoChecker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_work\\tests\\ThreeWill\\Temp1\\RepoChecker\\RepoChecker\\RepoChecker.csproj",
+        "projectUniqueName": "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\RepoChecker\\RepoChecker.csproj",
         "projectName": "RepoChecker",
-        "projectPath": "C:\\_work\\tests\\ThreeWill\\Temp1\\RepoChecker\\RepoChecker\\RepoChecker.csproj",
+        "projectPath": "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\RepoChecker\\RepoChecker.csproj",
         "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\_work\\tests\\ThreeWill\\Temp1\\RepoChecker\\RepoChecker\\obj\\",
+        "outputPath": "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\RepoChecker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

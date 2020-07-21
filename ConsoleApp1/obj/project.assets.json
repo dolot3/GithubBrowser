@@ -10,6 +10,19 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "RepoChecker/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/RepoChecker.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RepoChecker.dll": {}
+        }
       }
     }
   },
@@ -44,11 +57,16 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "RepoChecker/1.0.0": {
+      "type": "project",
+      "path": "../RepoChecker/RepoChecker.csproj",
+      "msbuildProject": "../RepoChecker/RepoChecker.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Newtonsoft.Json >= 12.0.3"
+      "RepoChecker >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -57,11 +75,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\RepoChecker\\RepoChecker.csproj",
-      "projectName": "RepoChecker",
-      "projectPath": "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\RepoChecker\\RepoChecker.csproj",
+      "projectUniqueName": "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-      "outputPath": "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\RepoChecker\\obj\\",
+      "outputPath": "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -76,7 +94,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\RepoChecker\\RepoChecker.csproj": {
+              "projectPath": "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\RepoChecker\\RepoChecker.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -87,12 +109,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "dependencies": {
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[12.0.3, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

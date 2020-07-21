@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CmvWo9tvcLnvMBDTXsI2oOS6V07KSj7Nl1AyyPXBKipl+BDI8zwUBPhPKD9A8SE2ec490c+rVthgL+6wAycXTA==",
+  "success": true,
+  "projectFilePath": "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

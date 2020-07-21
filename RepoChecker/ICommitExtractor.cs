@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using System.Reflection.Metadata;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace RepoChecker
 {
-    interface ICommitExtractor
+    public interface ICommitExtractor
     {
 
         string RepoName { get; set; }
 
-        string GetCommitsRaw();
+        Task<dynamic> GetCommitsRaw();
 
     }
 }

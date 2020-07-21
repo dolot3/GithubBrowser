@@ -1,0 +1,9 @@
+C:\_work\tests\ThreeWill\GithubBrowser\RepoChecker\bin\Debug\netcoreapp3.1\RepoChecker.deps.json
+C:\_work\tests\ThreeWill\GithubBrowser\RepoChecker\bin\Debug\netcoreapp3.1\RepoChecker.dll
+C:\_work\tests\ThreeWill\GithubBrowser\RepoChecker\bin\Debug\netcoreapp3.1\RepoChecker.pdb
+C:\_work\tests\ThreeWill\GithubBrowser\RepoChecker\obj\Debug\netcoreapp3.1\RepoChecker.AssemblyInfoInputs.cache
+C:\_work\tests\ThreeWill\GithubBrowser\RepoChecker\obj\Debug\netcoreapp3.1\RepoChecker.AssemblyInfo.cs
+C:\_work\tests\ThreeWill\GithubBrowser\RepoChecker\obj\Debug\netcoreapp3.1\RepoChecker.dll
+C:\_work\tests\ThreeWill\GithubBrowser\RepoChecker\obj\Debug\netcoreapp3.1\RepoChecker.pdb
+C:\_work\tests\ThreeWill\GithubBrowser\RepoChecker\obj\Debug\netcoreapp3.1\RepoChecker.csprojAssemblyReference.cache
+C:\_work\tests\ThreeWill\GithubBrowser\RepoChecker\obj\Debug\netcoreapp3.1\RepoChecker.csproj.CoreCompileInputs.cache

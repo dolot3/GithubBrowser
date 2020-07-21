@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "H4YTCGKwYiMxQz9bDxkenn34ag/F7yEO91cN6gJQTQfPLGIJjkQzKtGRrqaxtOlLpZ2vXWl3jI0yMpBAaCc5Hg==",
+  "dgSpecHash": "DYugnEEPnFqMass56+SXagYzsgk31j8d9rI1eLDooA9kb0W+7W9+Ix1HeG2Pzn5KNMVsw5dDVzq1P7BIchvaqw==",
   "success": true,
-  "projectFilePath": "C:\\_work\\tests\\ThreeWill\\Temp1\\RepoChecker\\RepoChecker\\RepoChecker.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\_work\\tests\\ThreeWill\\GithubBrowser\\RepoChecker\\RepoChecker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Owner\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
