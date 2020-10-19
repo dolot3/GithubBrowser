@@ -12,6 +12,8 @@ namespace RepoCheckerUnitTests
         [Fact]
         public void GetFormattedValues_Test()
         {
+
+            //Arrange
             List<RepoData> expected;
 
             Mock<ICommitExtractor> mockExtractor = new Mock<ICommitExtractor>();
@@ -19,8 +21,10 @@ namespace RepoCheckerUnitTests
 
             parser theFormatter = new parser(mockExtractor.Object);
 
+            //act
             expected = theFormatter.GetFormattedValues();
 
+            //assert
             Assert.Equal(3, expected.Count);
             Assert.Equal("dolot3", expected[0].Committer);
             Assert.Equal("Added interface", expected[1].Message);
@@ -29,7 +33,10 @@ namespace RepoCheckerUnitTests
         }
 
         
-
+        /// <summary>
+        /// Example test data taken from github
+        /// </summary>
+        /// <returns></returns>
         private string getTestRawValues()
         {
             return @"[
