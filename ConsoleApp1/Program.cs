@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using RepoChecker;
 
@@ -9,12 +10,13 @@ namespace ConsoleApp1
         static async Task Main(string[] args)
         {
             RepoChecker.ICommitExtractor extractor = new RepoChecker.CommitExtractor();
-
             extractor.RepoName = "dolot3/GitHubBrowser";
 
-            var value = await extractor.GetCommitsRaw();
+            parser theParser = new parser(extractor);
 
-            Console.WriteLine(value.ToString());
+            List<RepoData> thelist = theParser.GetFormattedValues();
+
+            Console.WriteLine(Newtonsoft.Json.JsonConvert.SerializeObject(thelist));
         }
     }
 }

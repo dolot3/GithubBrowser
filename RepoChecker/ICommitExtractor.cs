@@ -11,7 +11,7 @@ namespace RepoChecker
 
         string RepoName { get; set; }
 
-        Task<dynamic> GetCommitsRaw();
+        string GetCommitsRaw();
 
     }
 }

@@ -8,16 +8,16 @@ namespace RepoChecker
     {
         public string RepoName { get; set; }
 
-        public async Task<dynamic> GetCommitsRaw()
+        public string GetCommitsRaw()
         {
             HttpClient client = GetHttpClient();
             string jsonData;
 
             var stringTask = client.GetStringAsync($"https://api.github.com/repos/{RepoName}/commits");
 
-            jsonData = await stringTask;
+            jsonData = stringTask.Result;
 
-            return JArray.Parse(jsonData);
+            return JArray.Parse(jsonData).ToString();
         }
 
         private HttpClient GetHttpClient()
